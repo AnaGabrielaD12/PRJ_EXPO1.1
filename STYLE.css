@@ -1,0 +1,31 @@
+.DIV3 {
+
+    background-color: aqua;
+    color: blue;
+}
+
+.DIV3_P1 {
+    text-align: center;
+}
+
+.DIV3_SP1 {
+    color: red;
+}
+
+.DIV3_P2 {
+    text-align: center;
+    background-color: silver;
+}
+
+.DIV3_P3 {
+    text-align: right;
+}
+
+.DIV3_SP2 {
+    color: red;
+}
+
+.DIV3_P4 {
+    text-align: center;
+    background-color: silver;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aplicar CSS a documento HTML </title>
+    <link rel="stylesheet" href="STYLE.css">
+
+    <style>
+        .DIV2 {
+
+            background-color: aqua;
+            color: blue;
+        }
+
+        .DIV2_P1 {
+            text-align: center;
+        }
+
+        .DIV2_SP1 {
+            color: red;
+        }
+
+        .DIV2_P2 {
+            text-align: center;
+            background-color: silver;
+        }
+
+        .DIV2_P3 {
+            text-align: right;
+        }
+
+        .DIV2_SP2 {
+            color: red;
+        }
+
+        .DIV2_P4 {
+            text-align: center;
+            background-color: silver;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Forma Linear-->
+    <div style= "background-color: aqua; color: blue;">
+        <p style="text-align: center;"> Texto <spans style="color: red;"> Centrado </span>. </p>
+
+        <p style="text-align: center; background-color: silver;"> Texto centrado sobre fondo de color plata. </p>
+
+        <p style="text-align: right;"> <strong> Texto <span style="color: red;"> alineado </span> a la derecha. </strong> </p>
+
+        <p style="text-align: center; background-color: silver;"> Otro texto centrado sobre fondo de color plata. </p>
+    </div>
+
+    <br>
+    
+    <!--Forma Interna-->
+    <div class="DIV2">
+        <p class="DIV2_P1"> Texto <span class="DIV2_SP1"> Centrado. </span> </p>
+
+        <p class="DIV2_P2"> Texto centrado sobre fondo de color plata. </p>
+
+        <p class="DIV2_P3"> <strong> Texto <span class="DIV2_SP2"> alineado </span> a la derecha. </strong> </p>
+
+        <p class="DIV2_P4"> Otro texto centrado sobre fondo de color plata. </p>
+    </div>
+
+    <br>
+
+    <!--Forma Externa-->
+    <div class="DIV3">
+        <p class="DIV3_P1"> Texto <span class="DIV3_SP1"> Centrado. </span> </p>
+
+        <p class="DIV3_P2"> Texto centrado sobre fondo de color plata. </p>
+
+        <p class="DIV3_P3"> <strong> Texto <span class="DIV3_SP2"> alineado </span> a la derecha. </strong> </p>
+
+        <p class="DIV3_P4"> Otro texto centrado sobre fondo de color plata. </p>
+    </div>
+
+</body>
+</html>
